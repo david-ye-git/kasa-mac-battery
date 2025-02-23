@@ -100,8 +100,15 @@ lowerChargeLimit = when to start if battery falls below a certain percentage lik
 To run the script, simply modify it's permission like so
 ```
 chmod 777 <yourdirectory>/battery-check.sh;
+```
+and run it with the host as argument   
+```
 ./<yourdirectory>/battery-check.sh 192.0.2.123 <--- in this example it's 192.0.2.123 from step 3
 ```
 
 You can also modify the polling interval by changing how long the script sleeps for.  
+```
+sleep 600 = pause for 600 seconds or 10 minutes
+```
+
 ![image info](./image.png)
