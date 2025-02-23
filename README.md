@@ -1,6 +1,8 @@
 # kasa-mac-battery
 Scripts and instruction to set up a kasa smart plug to automatically toggle based on macbook battery percentages
 
+![image info](./image.png)
+
 <u>Tools needed:</u> Kasa Smart Plug - KP125  
 (May work with other models but have only tested in this one)
 
@@ -110,5 +112,3 @@ You can also modify the polling interval by changing how long the script sleeps 
 ```
 sleep 600 = pause for 600 seconds or 10 minutes
 ```
-
-![image info](./image.png)
